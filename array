@@ -1,3 +1,5 @@
+let array[2,3];
+
 function revert(array){
     let temp;
     temp = array[1];
@@ -5,4 +7,5 @@ function revert(array){
     array[0] = temp;
     return(array);
 }
+
 console.log(revert(array));
